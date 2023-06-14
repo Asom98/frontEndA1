@@ -3,41 +3,47 @@
         "id": 1,
         "title": "Bootstrap: Responsive Web Development",
         "author": "Jake Spurlock",
-        "description": "des",
+        "description": "Guid to bootstrap",
         "category": "Bootstrap",
-        "price" : 120
+        "price" : 120,
+        "url" : "https://m.media-amazon.com/images/I/512yIZgxJkL.jpg"
     },
     {
         "id": 2,
         "title": "Bootstrap 5 Foundations",
         "author": "Daniel Foreman",
-        "description": "des",
+        "description": "Guid to bootstrap",
         "category": "Bootstrap",
-        "price" : 110
+        "price" : 110,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id": 3,
         "title": "Bootstrap 5 Basics",
         "author": "John Au-Yeung",
-        "description": "des",
+        "description": "Guid to bootstrap",
         "category": "Bootstrap",
-        "price" : 0
+        "price" : 0,
+        "url" : "https://m.media-amazon.com/images/I/31Dj15Ixk5L._SX260_.jpg"
+        
     },
     {
         "id": 4,
         "title": "The Missing Bootstrap 5 Guide",
         "author": "Jeppe Schaumburg",
-        "description": "des",
+        "description": "Guid to bootstrap",
         "category": "Bootstrap",
-        "price" : 210
+        "price" : 210,
+        "url" : "https://m.media-amazon.com/images/I/41rt5feAZbL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg"
     },
     {
         "id": 5,
         "title": "Build responsive websites With HTML5 and Bootstrap 5",
         "author": "Daniel Foreman",
-        "description": "des",
+        "description": "Guid to bootstrap",
         "category": "Bootstrap",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id": 6,
@@ -45,7 +51,8 @@
         "author": "author",
         "description": "des",
         "category": "ux",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id": 7,
@@ -53,7 +60,8 @@
         "author": "author",
         "description": "des",
         "category": "ux",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id": 8,
@@ -61,7 +69,8 @@
         "author": "author",
         "description": "des",
         "category": "ux",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id":9,
@@ -69,7 +78,8 @@
         "author": "author",
         "description": "des",
         "category": "ux",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id": 10,
@@ -77,7 +87,8 @@
         "author": "author",
         "description": "des",
         "category": "ux",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id": 11,
@@ -85,7 +96,8 @@
         "author": "author",
         "description": "des",
         "category": "ux",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id": 12,
@@ -93,7 +105,8 @@
         "author": "author",
         "description": "des",
         "category": "ux",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id": 13,
@@ -101,7 +114,8 @@
         "author": "author",
         "description": "des",
         "category": "ux",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id": 14,
@@ -109,7 +123,8 @@
         "author": "author",
         "description": "des",
         "category": "ux",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id": 15,
@@ -117,7 +132,8 @@
         "author": "author",
         "description": "des",
         "category": "ux",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id": 16,
@@ -125,7 +141,8 @@
         "author": "author",
         "description": "des",
         "category": "ux",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id": 17,
@@ -133,7 +150,8 @@
         "author": "author",
         "description": "des",
         "category": "ux",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id": 18,
@@ -141,7 +159,8 @@
         "author": "author",
         "description": "des",
         "category": "ux",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id": 19,
@@ -149,7 +168,8 @@
         "author": "author",
         "description": "des",
         "category": "ux",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     },
     {
         "id": 20,
@@ -157,7 +177,8 @@
         "author": "author",
         "description": "des",
         "category": "ux",
-        "price" : 100
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
     }
 
 ]

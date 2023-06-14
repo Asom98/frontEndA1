@@ -8,6 +8,8 @@ import '../scss/style.scss';
 // import bootstrap JS part
 import * as bootstrap from 'bootstrap';
 
+import { loadStorePage } from './shop';
+
 // helper: grab a DOM element
 const $ = el => document.querySelector(el);
 
@@ -91,6 +93,10 @@ async function loadPage(src = location.pathname) {
   let html = pageCache[src] || await fetchText(src);
   pageCache[src] = html;
   $('main').innerHTML = html;
+
+  if (src === '/html/pages/shop.html') {
+    loadStorePage();
+  }
   // run componentMount (mount new components if any)
   componentMount();
   // set active link in navbar
