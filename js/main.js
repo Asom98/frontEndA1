@@ -145,7 +145,7 @@ async function getTheElement() {
                 <p class="card-text">${book.author}</p>
               </div>
             </div>
-          `;
+          `.join();
         }
 
         // Set the cards as the content of the main element
