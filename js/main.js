@@ -5,11 +5,13 @@
 // and hot reload on changes thanks to Vite
 import '../scss/style.scss';
 
+import { getBooks, displayBooks, displayCart, getBook, displayBooksDetails } from './loadStore';
+
 // import bootstrap JS part
 import * as bootstrap from 'bootstrap';
 
-// helper: grab a DOM element
 const $ = el => document.querySelector(el);
+
 
 // helper: fetch a text/html file (and remove vite injections)
 const fetchText = async url => (await (await (fetch(url))).text())
@@ -82,24 +84,37 @@ $('body').addEventListener('click', e => {
 // when the user navigates back / forward -> load page
 window.addEventListener('popstate', () => loadPage());
 
-// load page - soft reload / à la SPA 
-// (single page application) of the main content
 const pageCache = {};
 async function loadPage(src = location.pathname) {
-  src = src === '/' ? '/start' : src;
+  src = src === '/' ? 'start' : src;
   src = `/html/pages/${src}.html`;
   let html = pageCache[src] || await fetchText(src);
   pageCache[src] = html;
   $('main').innerHTML = html;
-  // run componentMount (mount new components if any)
   componentMount();
-  // set active link in navbar
-  setActiveLinkInNavbar();
+
+  if (location.pathname === '/' || location.pathname === 'start') {
+    getBooks().then((books) => displayBooks(books));
+  }
+  
+  if (location.pathname === '/cart') {
+    displayCart();
+  }
+}
+
+export async function loadDetailsPage(id) {
+  const src = `/html/pages/book.html?id=${id}`;
+  let html = pageCache[src] || await fetchText(src);
+  pageCache[src] = html;
+  $('main').innerHTML = html;
+  componentMount();
+  const book = getBook(id);
+  displayBooksDetails(book);
 }
 
 // set the correct link active in navbar match on
 // the attributes 'href' and also 'active-if-url-starts-with'
-function setActiveLinkInNavbar() {
+/*function setActiveLinkInNavbar() {
   let href = location.pathname;
   let oldActive = $('nav .active');
   let newActive = $(`nav a[href="${href}"]:not(.navbar-brand)`);
@@ -112,7 +127,9 @@ function setActiveLinkInNavbar() {
   }
   oldActive && oldActive.classList.remove('active');
   newActive && newActive.classList.add('active');
-}
+}*/
+
+
 
 // initially, on hard load/reload:
 // mount components and load the page

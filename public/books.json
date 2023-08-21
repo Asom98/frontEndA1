@@ -1,0 +1,184 @@
+[
+    {
+        "id": 1,
+        "title": "Bootstrap: Responsive Web Development",
+        "author": "Jake Spurlock",
+        "description": "Bootstrap is a widely used set of tools for web development that includes HTML, CSS, and JavaScript elements. It enables developers to create websites that automatically adjust their layout and appearance to fit various screen sizes and devices. This adaptability is crucial due to the prevalence of smartphone usage for website access. Websites that lack responsiveness can prove challenging to navigate on different devices. With Bootstrap, developers gain access to an extensive library of ready-made components and reusable code for various elements like navigation bars, buttons, forms, and cards. This pre-built foundation saves considerable time since developers don't have to start from scratch. They can simply utilize the optimized and thoroughly tested components within Bootstrap, streamlining their development process.",
+        "category": "UX",
+        "price" : 120,
+        "url" : "https://m.media-amazon.com/images/I/512yIZgxJkL.jpg"
+    },
+    {
+        "id": 2,
+        "title": "HTML and CSS: Design and Build Websites",
+        "author": "Jon Duckett",
+        "description": "HTML, short for Hypertext Markup Language, is like the building blocks of the internet. It's what makes every web page come to life! When you visit a website, what you see on the screen is all thanks to HTML. HTML also plays well with its buddies, CSS (Cascading Style Sheets) and JavaScript. Together, they team up to make websites not only functional but also beautiful and interactive. CSS handles the styling, while JavaScript adds that extra sparkle with cool animations and dynamic features.",
+        "category": "HTML",
+        "price" : 75,
+        "url" : "https://m.media-amazon.com/images/I/41WznOEKmAL._SX396_BO1,204,203,200_.jpg"
+    },
+        {
+        "id": 3,
+        "title": "CSS: The Definitive Guide",
+        "author": "Eric Meyer ",
+        "description": "CSS, or Cascading Style Sheets, is the artist of the web. It adds colors, styles, and layouts to websites, making them look beautiful and organized. It works together with HTML to create visually appealing pages with cool fonts, colors, and animations. CSS gives websites their unique charm, making them stand out and leave a lasting impression on visitors.",
+        "category": "CSS",
+        "price" : 25,
+        "url" : "https://m.media-amazon.com/images/I/51jIJFf-NaL._SX379_BO1,204,203,200_.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Node.js Web Development",
+        "author": "David Herron",
+        "description": "JavaScript, or JS, is the magic behind websites. It makes things interactive, like buttons that change color when you click them. JS runs in your web browser, making pages faster and more fun. It's the language that brings websites to life!",
+        "category": "JS",
+        "price" : 40,
+        "url" : "https://m.media-amazon.com/images/I/51pNmWED2pL.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Bootstrap 5 Foundations",
+        "author": "Daniel Foreman",
+        "description": "Guid to bootstrap",
+        "category": "UX",
+        "price" : 110,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Bootstrap 5 Basics",
+        "author": "John Au-Yeung",
+        "description": "Guid to bootstrap",
+        "category": "UX",
+        "price" : 0,
+        "url" : "https://m.media-amazon.com/images/I/31Dj15Ixk5L._SX260_.jpg"
+        
+    },
+    {
+        "id": 7,
+        "title": "The Missing Bootstrap 5 Guide",
+        "author": "Jeppe Schaumburg",
+        "description": "Guid to bootstrap",
+        "category": "UX",
+        "price" : 210,
+        "url" : "https://m.media-amazon.com/images/I/41rt5feAZbL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Build responsive websites With HTML5 and Bootstrap 5",
+        "author": "Daniel Foreman",
+        "description": "Guid to bootstrap",
+        "category": "UX",
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/41HFBSr7r+L.jpg"
+    },
+    {
+        "id": 9,
+        "title": "HTML and CSS: The Comprehensive Guide",
+        "author": "Jürgen Wolf",
+        "description": "Guid to HTML",
+        "category": "HTML",
+        "price" : 40,
+        "url" : "https://m.media-amazon.com/images/I/51lXp486p+L._SX420_BO1,204,203,200_.jpg"
+    },
+    {
+        "id": 10,
+        "title": "HTML and CSS QuickStart Guide",
+        "author": "David DuRocher",
+        "description": "Guid to HTML",
+        "category": "HTML",
+        "price" : 120,
+        "url" : "https://m.media-amazon.com/images/I/41AFjHEp3PL._SX404_BO1,204,203,200_.jpg"
+    },
+    {
+        "id":11,
+        "title": "A Learner's Guide to Creating Standards-Based Web Pages",
+        "author": "Elisabeth Robson",
+        "description": "Guid to HTML",
+        "category": "HTML",
+        "price" : 99,
+        "url" : "https://m.media-amazon.com/images/I/51W7opo-UML._SX430_BO1,204,203,200_.jpg"
+    },
+    {
+        "id": 12,
+        "title": "HTML5 and CSS3 All-in-One For Dummies",
+        "author": "Andy Harris",
+        "description": "Guid to HTML",
+        "category": "HTML",
+        "price" : 15,
+        "url" : "https://m.media-amazon.com/images/I/51FS-B0o2CL._SX396_BO1,204,203,200_.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Modern CSS",
+        "author": "Joe Attardi ",
+        "description": "Guid to CSS",
+        "category": "CSS",
+        "price" : 150,
+        "url" : "https://m.media-amazon.com/images/I/41KHWN0SMBL._SX348_BO1,204,203,200_.jpg"
+    },
+    {
+        "id": 14,
+        "title": "CSS in Depth",
+        "author": "Keith J. Grant",
+        "description": "Guid to CSS",
+        "category": "CSS",
+        "price" : 30,
+        "url" : "https://m.media-amazon.com/images/I/51PaEv1nd0L._SX646_BO1,204,203,200_.jpg"
+    },
+    {
+        "id": 15,
+        "title": "CSS Secrets",
+        "author": "Lea Verou",
+        "description": "Guid to CSS",
+        "category": "CSS",
+        "price" : 80,
+        "url" : "https://m.media-amazon.com/images/I/41qB5V+q8mL._SX408_BO1,204,203,200_.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Learn CSS in One Day and Learn It Well",
+        "author": "LCF Publishing",
+        "description": "Guid to CSS",
+        "category": "CSS",
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/51tmSgIwQSL.jpg"
+    },
+    {
+        "id": 17,
+        "title": "JavaScript from Beginner to Professional",
+        "author": "Laurence Lars Svekis",
+        "description": "Guid to JS",
+        "category": "JS",
+        "price" : 90,
+        "url" : "https://m.media-amazon.com/images/I/51oDSNyJLDL.jpg"
+    },
+    {
+        "id": 18,
+        "title": "JavaScript: The Definitive Guide",
+        "author": "David Flanagan ",
+        "description": "Guid to JS",
+        "category": "JS",
+        "price" : 130,
+        "url" : "https://m.media-amazon.com/images/I/51wijnc-Y8L.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Eloquent JavaScript",
+        "author": "Marijn Haverbeke ",
+        "description": "Guid to JS",
+        "category": "JS",
+        "price" : 60,
+        "url" : "https://m.media-amazon.com/images/I/51-5ZXYtcML.jpg"
+    },
+    {
+        "id": 20,
+        "title": "JavaScript: The Comprehensive Guide",
+        "author": "Philip Ackermann ",
+        "description": "Guid to JS",
+        "category": "JS",
+        "price" : 100,
+        "url" : "https://m.media-amazon.com/images/I/51jkTOo783L.jpg"
+    }
+
+]
